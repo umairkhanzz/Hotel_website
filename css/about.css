@@ -1,0 +1,202 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    overflow: auto;
+    padding: 0 90px;
+}
+.container1 {
+    margin: auto;
+    overflow: auto;
+    padding: 0 90px;
+    padding-bottom: 45px;
+}
+.container2 {
+    margin: auto;
+    overflow: auto;
+    padding: 0 90px;
+    padding-bottom: 45px;
+}
+.container3 {
+    margin: auto;
+    overflow: auto;
+    padding: 0 90px;
+    padding-bottom: 100px;
+}
+.textprimary {
+    color: #f7c08a;
+}
+.lead {
+    font-size: 20px;
+} 
+
+
+/*    main css   */
+html body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+p {
+    margin: 10px 0px;
+}
+
+/*    navbar    */
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+#navbar ul li a:hover ,
+#navbar ul li a.current {
+    background: #444;
+    color: #f7c08a; 
+}
+#navbar ul li input {
+    padding: 5px;
+    align-items: center;
+    bottom: 100%;
+}
+#aboutinfo {
+    background-color: aliceblue;
+}
+#aboutinfo .rightinfo {
+    float: right;
+    width: 50%;
+    min-height: 100px;
+}
+.rightinfo img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 50%;
+}
+#aboutinfo .aboutcontent {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    padding: 20px;
+    line-height: 2.0em;
+}
+#aboutinfo .aboutcontent h1 {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+}
+#aboutinfo .aboutcontent p {
+    padding-left: 30px;
+}
+
+#customer {
+    background: url('../img/test-bg.jpg');
+}
+#customer h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 80px;
+}
+#customer .cus1 {
+    background-color: #f7c08a;
+    border-radius: 10px;
+    padding: 40px;
+    opacity: 0.7;
+    display: block;
+}
+
+#customer .cus1 img {
+    display: block;
+    float: left;
+    width: 12%;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+#customer .cus1 p {
+    color: black
+    text-align: left;
+    padding-left: 200px;
+    
+}
+#customer .cus2 {
+    background-color: #f7c08a;
+    padding: 40px;
+    opacity: 90%;
+    display: block;
+}
+#customer .cus2 img {
+    display: block;
+    float: left;
+    width: 12%;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+#customer .cus2 p {
+    color: black
+    text-align: left;
+    padding-left: 200px;
+    
+}
+#customer .cus3 {
+    background-color: #f7c08a;
+    padding: 40px;
+    opacity: 90%;
+    display: block;
+}
+#customer .cus3 img {
+    display: block;
+    float: left;
+    width: 12%;
+    box-sizing: border-box;
+    border-radius: 80px;
+}
+#customer .cus3 p {
+    color: black
+    text-align: left;
+    padding-left: 200px;
+    
+}
+
+#mainfooter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
